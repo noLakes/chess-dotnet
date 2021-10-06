@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tinysoundPC\\Documents\\code\\c#\\chess\\chess.csproj": {}
+    "C:\\Users\\tinysoundPC\\Documents\\code\\c#\\chess\\src\\chess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tinysoundPC\\Documents\\code\\c#\\chess\\chess.csproj": {
+    "C:\\Users\\tinysoundPC\\Documents\\code\\c#\\chess\\src\\chess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tinysoundPC\\Documents\\code\\c#\\chess\\chess.csproj",
+        "projectUniqueName": "C:\\Users\\tinysoundPC\\Documents\\code\\c#\\chess\\src\\chess.csproj",
         "projectName": "chess",
-        "projectPath": "C:\\Users\\tinysoundPC\\Documents\\code\\c#\\chess\\chess.csproj",
+        "projectPath": "C:\\Users\\tinysoundPC\\Documents\\code\\c#\\chess\\src\\chess.csproj",
         "packagesPath": "C:\\Users\\tinysoundPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tinysoundPC\\Documents\\code\\c#\\chess\\obj\\",
+        "outputPath": "C:\\Users\\tinysoundPC\\Documents\\code\\c#\\chess\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tinysoundPC\\AppData\\Roaming\\NuGet\\NuGet.Config"
