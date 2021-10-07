@@ -18,7 +18,7 @@ namespace Chess
                 Cells[i] = new Cell[8];
                 for (int j = 0; j < Cells[i].Length; j ++)
                 {
-                    Cells[i][j] = new Cell();
+                    Cells[i][j] = new Cell(i, j, null);
                 }
             }
         }
