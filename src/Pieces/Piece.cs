@@ -9,7 +9,7 @@ namespace Chess
             Color = IsWhite ? "White" : "Black";
         }
 
-        public int[][] Moves;
+        public int[,] Moves;
         public string Color { get; private set; }
     }
 }
