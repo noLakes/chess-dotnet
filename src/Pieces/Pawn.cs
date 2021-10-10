@@ -6,6 +6,8 @@ namespace Chess
     {
         public Pawn(bool IsWhite) : base(IsWhite)
         {
+            SetSymbol(IsWhite ? "x" : "y");
+
             if(IsWhite)
             {
                 Moves = new int[4, 2] { {-1, 1}, {1, 1}, {0, 2}, {0, 1} };

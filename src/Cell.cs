@@ -21,8 +21,8 @@ namespace Chess
             return piece;
         }
 
-        private Piece piece;
-        private int x;
-        private int y;
+        public Piece piece { get; private set; }
+        public int x { get; private set; }
+        public int y { get; private set; }
     }
 }
