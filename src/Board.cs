@@ -2,7 +2,7 @@ using System;
 
 namespace Chess
 {
-    public class Board
+    class Board
     {
         public Board()
         {
@@ -24,6 +24,6 @@ namespace Chess
         }
 
         // Cells is a jagged array of containing 8 sub arrays of 8 cells (8x8)
-        public readonly Cell[][] Cells;
+        public Cell[][] Cells { get; private set; }
     }
 }

@@ -16,11 +16,6 @@ namespace Chess
             this.piece = piece;
         }
 
-        public Piece GetPiece()
-        {
-            return piece;
-        }
-
         public Piece piece { get; private set; }
         public int x { get; private set; }
         public int y { get; private set; }

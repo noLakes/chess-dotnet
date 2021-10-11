@@ -6,6 +6,8 @@ namespace Chess
     {
         public Queen(bool IsWhite) : base(IsWhite)
         {
+            SetSymbol(IsWhite ? "\u2655" : "\u265B");
+
             Moves = new int[56, 2] {
                          {-1, 1}, {-2, 2}, {-3, 3}, {-4, 4}, {-5, 5}, {-6, 6}, {-7, 7},
                          {1, -1}, {2, -2}, {3, -3}, {4, -4}, {5, -5}, {6, -6}, {7, -7},

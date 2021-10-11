@@ -6,7 +6,7 @@ namespace Chess
     class Display
     {
 
-        public void DrawBoard(Board board)
+        public static void DrawBoard(Board board)
         {
             ArrayList BoardText = new ArrayList();
 
@@ -17,11 +17,15 @@ namespace Chess
                 for (int j = 0; j < board.Cells[i].Length; j++)
                 {
                     var piece = board.Cells[i][j].piece;
-                    // add empty cell or cell with piece. maybe add another method with switch to get piece text?
-                    BoardText.Add( piece is null ? "[ ]" : "[P]");
+                    BoardText.Add( piece is null ? "[ ]" : piece.GetSymbol());
                 }
                 BoardText.Add("\n");
             }
+
+            BoardText.Add("   a  b  c  d  e  f  g  h\n");
+
+            // fix issue - just prints the obj right now. could add render board method?
+            Console.WriteLine(BoardText);
         }
     }
 }
