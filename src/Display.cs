@@ -27,7 +27,7 @@ namespace Chess
                 for (int j = 0; j < board.Cells[i].Length; j++)
                 {
                     var piece = board.Cells[i][j].piece;
-                    BoardText.Add( piece is null ? "[ ]" : piece.GetSymbol());
+                    BoardText.Add( piece is null ? "[ ]" : $"[{piece.GetSymbol()}]");
                 }
                 BoardText.Add("\n");
             }
