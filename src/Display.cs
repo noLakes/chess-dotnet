@@ -8,6 +8,16 @@ namespace Chess
 
         public static void DrawBoard(Board board)
         {
+            ArrayList Text = RenderBoard(board);   
+
+            foreach(string line in Text)
+            {
+                Console.Write(line);
+            }
+        }
+
+        private static ArrayList RenderBoard(Board board)
+        {
             ArrayList BoardText = new ArrayList();
 
             for (int i = 0; i < board.Cells.Length; i++)
@@ -23,9 +33,7 @@ namespace Chess
             }
 
             BoardText.Add("   a  b  c  d  e  f  g  h\n");
-
-            // fix issue - just prints the obj right now. could add render board method?
-            Console.WriteLine(BoardText);
+            return BoardText;
         }
     }
 }
