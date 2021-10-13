@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Fn2iTs1PnNaeKfGzTi49/GpDRKC4aLVxM1jKIUr+A/y0U0cDY/uAgiIxraDvcOXASibRZvw2EGihs4p55Wt/cg==",
+  "dgSpecHash": "4/YvQcXCfaE+jzn98xVdVoO53L//NkruYEGhaQO2/rEdacAxtKmrHeXphulTSFPjogQ2daSnbZYcu5KbbeT95w==",
   "success": true,
-  "projectFilePath": "/Users/shan/code/c#/chess-dotnet/src/chess.csproj",
+  "projectFilePath": "C:\\Users\\tinysoundPC\\Documents\\code\\c#\\chess\\src\\chess.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

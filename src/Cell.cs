@@ -11,12 +11,17 @@ namespace Chess
       SetPiece(piece);
     }
 
-    private void SetPiece(Piece piece)
+    public void SetPiece(Piece piece)
     {
       this.piece = piece;
     }
 
-    public Piece piece { get; private set; }
+    public Piece GetPiece()
+    {
+        return piece;
+    }
+
+    private Piece piece;
     public int x { get; private set; }
     public int y { get; private set; }
   }

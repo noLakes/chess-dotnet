@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/shan/code/c#/chess-dotnet/src/chess.csproj": {}
+    "C:\\Users\\tinysoundPC\\Documents\\code\\c#\\chess\\src\\chess.csproj": {}
   },
   "projects": {
-    "/Users/shan/code/c#/chess-dotnet/src/chess.csproj": {
+    "C:\\Users\\tinysoundPC\\Documents\\code\\c#\\chess\\src\\chess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/shan/code/c#/chess-dotnet/src/chess.csproj",
+        "projectUniqueName": "C:\\Users\\tinysoundPC\\Documents\\code\\c#\\chess\\src\\chess.csproj",
         "projectName": "chess",
-        "projectPath": "/Users/shan/code/c#/chess-dotnet/src/chess.csproj",
-        "packagesPath": "/Users/shan/.nuget/packages/",
-        "outputPath": "/Users/shan/code/c#/chess-dotnet/src/obj/",
+        "projectPath": "C:\\Users\\tinysoundPC\\Documents\\code\\c#\\chess\\src\\chess.csproj",
+        "packagesPath": "C:\\Users\\tinysoundPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tinysoundPC\\Documents\\code\\c#\\chess\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/shan/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\tinysoundPC\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

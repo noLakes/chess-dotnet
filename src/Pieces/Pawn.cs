@@ -6,7 +6,7 @@ namespace Chess
     {
         public Pawn(bool IsWhite) : base(IsWhite)
         {
-            SetSymbol(IsWhite ? "x" : "y");
+            SetSymbol(IsWhite ? "\u2659" : "\u265F");
 
             if(IsWhite)
             {

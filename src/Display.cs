@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Text;
 
 namespace Chess
 {
@@ -9,6 +10,8 @@ namespace Chess
         public static void DrawBoard(Board board)
         {
             ArrayList Text = RenderBoard(board);   
+
+            UTF8Encoding utf8 = new UTF8Encoding();
 
             foreach(string line in Text)
             {
@@ -26,7 +29,7 @@ namespace Chess
 
                 for (int j = 0; j < board.Cells[i].Length; j++)
                 {
-                    var piece = board.Cells[i][j].piece;
+                    var piece = board.Cells[i][j].GetPiece();
                     BoardText.Add( piece is null ? "[ ]" : $"[{piece.GetSymbol()}]");
                 }
                 BoardText.Add("\n");
