@@ -4,10 +4,10 @@ namespace Chess
 {
   class Cell
   {
-    public Cell(int xCoord, int yCoord, Piece piece)
+    public Cell(int row, int col, Piece piece)
     {
-      this.x = xCoord;
-      this.y = yCoord;
+      this.Row = row;
+      this.Col = col;
       SetPiece(piece);
     }
 
@@ -22,7 +22,7 @@ namespace Chess
     }
 
     private Piece piece;
-    public int x { get; private set; }
-    public int y { get; private set; }
+    public int Row { get; private set; }
+    public int Col { get; private set; }
   }
 }

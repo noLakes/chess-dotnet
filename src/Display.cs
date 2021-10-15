@@ -6,7 +6,6 @@ namespace Chess
 {
     class Display
     {
-
         public static void DrawBoard(Board board)
         {
             ArrayList Text = RenderBoard(board);   
