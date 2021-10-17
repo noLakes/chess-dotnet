@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 
 namespace Chess
 {
@@ -60,6 +61,26 @@ namespace Chess
         public Cell GetCell(int row, int col)
         {
           return Cells[row][col];
+        }
+
+        public ArrayList Render()
+        {
+            ArrayList BoardText = new ArrayList();
+
+            for (int i = 0; i < Cells.Length; i++)
+            {
+                BoardText.Add($"{8 - i} ");
+
+                for (int j = 0; j < Cells[i].Length; j++)
+                {
+                    var piece = Cells[i][j].GetPiece();
+                    BoardText.Add( piece is null ? "[ ]" : $"[{piece.GetSymbol()}]");
+                }
+                BoardText.Add("\n");
+            }
+
+            BoardText.Add("   a  b  c  d  e  f  g  h\n");
+            return BoardText;
         }
 
         // Cells is a jagged array of containing 8 sub arrays of 8 cells (8x8)
