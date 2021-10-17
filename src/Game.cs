@@ -9,7 +9,7 @@ namespace Chess
             board = new Board();
             if(defaultGame)
             {
-                SetPlayers(true, false);
+                SetPlayers(true, true);
             }
             else
             {
@@ -42,7 +42,6 @@ namespace Chess
             SetPlayers(white=="y", black=="y");
         }
         
-
         public Board board { get; private set; }
         public Player White { get; private set; }
         public Player Black { get; private set; }

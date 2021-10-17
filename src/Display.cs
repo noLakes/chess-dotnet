@@ -16,7 +16,7 @@ namespace Chess
             }
         }
 
-        public static string GetInput(string prompt, string[] format = null)
+        public static string GetInput(string prompt)
         {
             Console.Write($"{prompt} ");
             string answer = Console.ReadLine();
