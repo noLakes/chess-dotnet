@@ -15,6 +15,14 @@ namespace Chess
                 Console.Write(line);
             }
         }
-        
+
+        public static string GetInput(string prompt, string[] format = null)
+        {
+            Console.Write($"{prompt} ");
+            string answer = Console.ReadLine();
+
+            return answer;
+        }   
+
     }
 }

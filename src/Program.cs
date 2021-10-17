@@ -7,8 +7,8 @@ namespace Chess
     {
         static void Main(string[] args)
         {   
-            Board board = new Board();
-            Display.DrawArrayList(board.Render());
+            Game game = new Game(true);
+            Display.DrawArrayList(game.board.Render());
         }
     }
 }
