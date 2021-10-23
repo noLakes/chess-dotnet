@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = chess
-build_property.ProjectDir = /Users/shan/code/c#/chess-dotnet/src/
+build_property.ProjectDir = C:\Users\tinysoundPC\Documents\code\c#\chess\chess-dotnet\src\
