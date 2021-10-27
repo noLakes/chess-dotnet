@@ -58,6 +58,11 @@ namespace Chess
             }
         }
 
+        public static bool IsLegalMove(Move move)
+        {
+            // dummy
+            return true;
+        }
         public Cell GetCell(int row, int col)
         {
           return Cells[row][col];
